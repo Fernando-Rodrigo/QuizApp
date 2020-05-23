@@ -11,6 +11,18 @@ header{
     font-size: 30pt;
 }
 
+h3{
+    text-indent: 25px;
+}
+
+p{
+    text-indent: 50px;
+}
+
+ul{
+    text-indent: 50px;
+}
+
 section#corpo{
     font-size: 18pt;
 }
@@ -28,4 +40,5 @@ footer{
     background-color: yellowgreen;
     padding: 5px;
     font-weight: bold;
+    margin-left: 100px;
 }
