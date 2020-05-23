@@ -2,6 +2,8 @@
 
 body{
     font-family: 'Carrois Gothic', sans-serif;
+    color: yellow;
+    background: url("../Imagens/bg.jpg");
 }
 
 header{
@@ -11,6 +13,11 @@ header{
 
 section#corpo{
     font-size: 18pt;
+}
+
+footer{
+    text-align: center;
+    font-weight: bolder;
 }
 
 .button{
