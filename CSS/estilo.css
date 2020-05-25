@@ -9,7 +9,7 @@ body{
 header{
     margin-top: -60px;
     margin-left: -5px;
-    width: 1355px;
+    width: 1350px;
     text-align: center;
     font-size: 30pt;
     background-image: url(../Imagens/header.jpg);
@@ -20,7 +20,7 @@ header{
 }
 
 h1{
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 h3{
