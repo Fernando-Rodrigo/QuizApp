@@ -9,6 +9,11 @@ body{
 header{
     text-align: center;
     font-size: 30pt;
+    background-image: url(../Imagens/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
 }
 
 h3{
