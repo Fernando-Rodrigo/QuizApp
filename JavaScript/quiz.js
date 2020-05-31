@@ -1,0 +1,1 @@
+const quiz = require('../json/quiz1.json')
