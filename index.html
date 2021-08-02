@@ -1,38 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <link rel="shortcut icon" href="./Imagens/icone.png" type="image/x-icon">
-    <link rel="stylesheet" href="./CSS/estilo.css">
-    <script src="./JavaScript/quiz.js"></script>
+
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="shortcut icon" href="Imagens/icone.png" type="image/x-icon">
 </head>
+<body class="body">
+    <h1>Quiz de biologia</h1>
+    <button type="button" class="iniciar">Inicar quiz</button>
 
-<body>
-    <header>
-        <h1>Quiz</h1>
-    </header>
+    <div class="questao">
+        <h2 class="pergunta">Pergunta</h2>
+        <div class="alternativa">
 
-    <section id="corpo">
-        <div>
-            <h3>Escolha uma reposta</h3>
-            <p id="pergunta">Pergunta</p>
-            <ul>
-                <li id="alternativa1">Alternativa 1</li>
-                <li id="alternativa2">Alternativa 2</li>
-                <li id="alternativa3">Alternativa 3</li>
-                <li id="alternativa4">Alternativa 4</li>
-            </ul>
-            <input type="button" value="Checar" class="button" id="checar" onclick="checar()">
         </div>
-    </section>
+        <button type="button" class="check-btn">Checar</button>
+    </div>
 
-    <footer>
-        <p>&copy; Fernando</p>
-    </footer>
-
+    <script src="JavaScript/quiz.js"></script>
 </body>
-
 </html>
